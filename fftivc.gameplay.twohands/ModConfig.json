@@ -1,0 +1,46 @@
+{
+  "ModId": "fftivc.gameplay.twohands",
+  "ModName": "fftivc.gameplay.twohands",
+  "ModAuthor": "Dicene",
+  "ModVersion": "0.1.0",
+  "ModDescription": "Enables equipping items in the second hand while Doublehand is active, like in FFT PSX",
+  "ModDll": "fftivc.gameplay.twohands.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/fftivc.gameplay.twohands.dll",
+  "ModR2RManagedDll64": "x64/fftivc.gameplay.twohands.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.gameplay.twohands.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": ["fft_enhanced.exe"],
+  "ProjectUrl": ""
+}
